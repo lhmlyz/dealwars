@@ -1,21 +1,31 @@
-# PROJECT NAME: DEAL WARS
+# 🚀 Project Name: **Deal Wars**  
+**Team:** Gencool  
+**Hackathon:** [Azercell Hackaton 2022]  
 
-# TEAM: GENCOOL
+---
 
-# TEAM MEMBERS : ELYAZOV ILHAM, IBRAHIMZADE SAMIR, BAKHSHIZADE NICAT
+## 👥 Team Members & Roles:
+- **Elyazov Ilham** – Backend Developer  
+- **Ibrahimzade Samir** – Mobile Developer  
+- **Bakhshizade Nicat** – Backend Developer  
 
-# RESPONSIBILITY :
-#           PRODUCT OWNER : BAKHSHIZADE NICAT, ELYAZOV ILHAM, IBRAHIMZADE SAMIR,
-#           BACK END DEVELOPER : ELYAZOV ILHAM, BAKHSHIZADE NICAT,
-#           MOBILE DEVELOPER :  IBRAHIMZADE SAMIR.
+---
 
-#  USED TECHNOLOGY : 
-## SPRING BOOT, JPA, HEROKU CLOUD, POSTGRESQL
+## 🛠️ Technologies Used:
+- Java, Spring Boot, JPA  
+- PostgreSQL  
+- Heroku (Free Tier)  
 
-# HOW TO RUN
-## ./mvnw spring-boot:run
+---
 
-# NOTES
-## 1 - In order to run the application locally, first install postgresql and create relevant table and sequence by using sql files in the sql folder.
-## 2 - When performing operations in application, please consider that, free version of Heroku used and heroku suspends the application after some time. This cause some performance issues.
+## 🧩 Project Overview:
+**Deal Wars** is a mobile-backend integrated application developed during a hackathon to streamline deal tracking and competition. The backend was built with **Spring Boot** and deployed on **Heroku**, with **PostgreSQL** as the database.
 
+---
+
+## ▶️ How to Run:
+1. Install **PostgreSQL** locally.  
+2. Create necessary tables and sequences using the SQL scripts in the `/sql` folder.  
+3. Start the backend with the following command:
+   ```bash
+   ./mvnw spring-boot:run
